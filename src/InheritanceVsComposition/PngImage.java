@@ -1,6 +1,6 @@
 package InheritanceVsComposition;
 
-public class PngImage extends Image {
+public class PngImage extends ImageFile {
     private String path;
     public PngImage(String path) {
         this.path = path;

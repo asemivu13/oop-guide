@@ -32,6 +32,4 @@ public abstract class Image {
     public void flipVertical() {
         System.out.println("flip vertical");
     }
-    public abstract void load();
-    public abstract void save();
 }

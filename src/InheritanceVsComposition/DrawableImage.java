@@ -10,17 +10,4 @@ public class DrawableImage extends Image {
         resize(10);
         System.out.println("drawLine");
     }
-    @Override
-    public void load() {
-        System.out.println("" +
-                "This function is not needed but we must implement it because inherit Image class" +
-                "");
-    }
-
-    @Override
-    public void save() {
-        System.out.println("" +
-                "This function is not needed but we must implement it because inherit Image class" +
-                "");
-    }
 }
