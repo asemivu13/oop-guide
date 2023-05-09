@@ -1,17 +1,15 @@
 package InheritanceVsComposition;
 
-public class JpgImage extends Image {
+public class JpgImage {
     private String path;
     public JpgImage(String path) {
         this.path = path;
     }
-    @Override
-    public void load() {
-        flipHorizontal();
+    public void load(Image image) {
+        image.flipHorizontal();
         System.out.println("JpgImage: load");
     }
 
-    @Override
     public void save() {
         System.out.println("JpgImage: save");
     }

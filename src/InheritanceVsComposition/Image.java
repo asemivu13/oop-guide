@@ -1,6 +1,6 @@
 package InheritanceVsComposition;
 
-public abstract class Image {
+public class Image {
     private Pixel pixel;
     private int width;
     private int height;
@@ -32,6 +32,4 @@ public abstract class Image {
     public void flipVertical() {
         System.out.println("flip vertical");
     }
-    public abstract void load();
-    public abstract void save();
 }

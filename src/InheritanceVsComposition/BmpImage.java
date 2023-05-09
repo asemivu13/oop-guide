@@ -1,15 +1,13 @@
 package InheritanceVsComposition;
 
-public class BmpImage extends Image {
-    @Override
-    public void load() {
-        flipHorizontal();
+public class BmpImage {
+    public void load(Image image) {
+        image.flipHorizontal();
         System.out.println("BmpImage: load");
     }
 
-    @Override
-    public void save() {
-        flipHorizontal();
+    public void save(Image image) {
+        image.flipHorizontal();
         System.out.println("BmpImage: save");
     }
 }
