@@ -23,7 +23,7 @@ public abstract class Image {
     public void replacePixels(Pixel pixel) {
         System.out.println("replace pixel");
     }
-    public void replace(double scale) {
+    public void resize(double scale) {
         System.out.println("resize");
     }
     public void flipHorizontal() {
